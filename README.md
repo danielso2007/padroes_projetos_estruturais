@@ -41,19 +41,23 @@ O Adapter é um padrão de projeto estrutural que permite objetos com interfaces
 
 ## Objetivo do projeto
 
-- xxxxx
+- Apresentar o problema geral
+- Apresentar uma solução utilizando o adapter
+- Apresentar a diferença entre adapters de objeto e classe
+- Apresentar como esse padrão está sendo utilizado em arquiteturas de sistemas modernos
 
 ## Problemas
 
-- xxxxx
+- Como uma classe pode ser reusada mesmo que não tenha a interface requisitada pelo cliente?
+- Como classes de interfaces incompatíveis podem trabalhar juntas?
 
 ## Solução
 
-- xx
+- Definir uma classe adapter que converta a interface de uma classe em outra que o cliente necessite
 
 ## GOF
 
-> 
+> Converter a interface de uma classe em outra interface esperada pelos clientes. Adapter permite a comunicação entre classes que não poderiam trabalhar juntas devido à incompatibilidade de suas interfaces.
 
 ## Código
 
