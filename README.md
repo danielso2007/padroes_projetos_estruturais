@@ -98,19 +98,22 @@ O Composite é um padrão de projeto estrutural que permite que você componha o
 
 ## Objetivo do projeto
 
-- xxxxx
+- Apresentar o problema geral
+- Apresentar uma solução utilizando o composite
+- Conhecer como a recursão ajuda bastante a nabegar por este padrão
+- Ser apresentado para uma biblioteca que utiliza diversos padrões: swing
 
 ## Problemas
 
-- xxxxx
+- Como seria possível criar uma estrutura onde uma unidade e um conjunto delas possam ser tratadas de forma transparente, sem diferenças?
 
 ## Solução
 
-- xx
+- Definir uma composição que possa comportar tanto um elemento apenas quando um conjunto desses mesmos elementos
 
 ## GOF
 
-> 
+> Compor objetos em estrturas de árvore para representar hierarquias todo-parte. Composite permite que cliente tratem objetos individuais e composições de objetos de maneira uniforme
 
 ## Código
 

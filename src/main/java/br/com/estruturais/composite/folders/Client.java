@@ -1,5 +1,6 @@
 package br.com.estruturais.composite.folders;
 
+import static java.lang.System.*;
 import java.io.File;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -32,7 +33,7 @@ public class Client {
 
         folder.print("");
 
-        System.out.println("------------");
+        out.println("------------");
 
         String dir = System.getProperty("user.dir");
         FileSystemItem fromDisk = createCompositeFromFile(new File(dir + File.separator + "src"));

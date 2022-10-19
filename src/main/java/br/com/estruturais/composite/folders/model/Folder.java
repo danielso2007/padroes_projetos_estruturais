@@ -1,5 +1,7 @@
 package br.com.estruturais.composite.folders.model;
 
+import static java.lang.System.*;
+
 import java.util.List;
 
 public class Folder implements FileSystemItem {
@@ -13,7 +15,7 @@ public class Folder implements FileSystemItem {
 
     @Override
     public void print(String structure) {
-        System.out.println(structure + name);
+        out.println(structure + name);
         for (FileSystemItem child : childs) {
             child.print(structure + "| ");
         }
