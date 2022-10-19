@@ -69,19 +69,24 @@ O Bridge é um padrão de projeto estrutural que permite que você divida uma cl
 
 ## Objetivo do projeto
 
-- xxxxx
+- Apresentar o problema geral
+- Apresentar uma solução utilizando o bridge
+- Conhecer como este padrão pode ser utilizado juntamente com o padrão MVC
+- Conhecer como este padrão pode ser utilizado juntamente com um exemplo simples de backend
 
 ## Problemas
 
-- xxxxx
+- Como é possível fazer com que a abstração e a implementação possam variar independentemente?
+- Como esta implementação pode variar em tempo de execução?
 
 ## Solução
 
-- xx
+- Definir um conjunto hierárquico para ambos os lados: abstração e implementação
+- Em tempo de execução, será possível escolher a classe concreta para a abstração e para a implementação que são compatíveis graças às interfaces
 
 ## GOF
 
-> 
+> Desacoplar uma abstração de sua implementação para que os dois possam variar independentemente
 
 ## Código
 

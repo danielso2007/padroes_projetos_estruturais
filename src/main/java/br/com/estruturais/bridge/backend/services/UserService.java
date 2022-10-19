@@ -6,7 +6,7 @@ import br.com.estruturais.bridge.backend.model.User;
 public abstract class UserService {
     protected UserDao dao;
 
-    public UserService(UserDao dao) {
+    protected UserService(UserDao dao) {
         this.dao = dao;
     }
 

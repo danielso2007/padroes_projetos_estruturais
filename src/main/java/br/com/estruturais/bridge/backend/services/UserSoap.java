@@ -1,5 +1,6 @@
 package br.com.estruturais.bridge.backend.services;
 
+import static java.lang.System.*;
 import br.com.estruturais.bridge.backend.dao.UserDao;
 import br.com.estruturais.bridge.backend.model.User;
 
@@ -11,7 +12,7 @@ public class UserSoap extends UserService {
 
     @Override
     public void save(User user) {
-        System.out.println("Starting a save operation through Soap Protocol!");
+        out.println("Starting a save operation through Soap Protocol!");
         dao.save(user);
     }
 }

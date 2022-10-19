@@ -1,8 +1,9 @@
 package br.com.estruturais.bridge.backend.services;
 
+import static java.lang.System.*;
+
 import br.com.estruturais.bridge.backend.dao.UserDao;
 import br.com.estruturais.bridge.backend.model.User;
-
 public class UserEJB extends UserService {
 
     public UserEJB(UserDao dao) {
@@ -11,7 +12,7 @@ public class UserEJB extends UserService {
 
     @Override
     public void save(User user) {
-        System.out.println("Starting a save operation through EJB Protocol!");
+        out.println("Starting a save operation through EJB Protocol!");
         dao.save(user);
     }
 }

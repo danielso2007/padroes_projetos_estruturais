@@ -1,5 +1,6 @@
 package br.com.estruturais.bridge.converter;
 
+import static java.lang.System.*;
 import br.com.estruturais.bridge.converter.converters.CSVConverter;
 import br.com.estruturais.bridge.converter.converters.Converter;
 import br.com.estruturais.bridge.converter.converters.JsonConverter;
@@ -15,9 +16,9 @@ public class Client {
         ITGuy it = new ITGuy("Maurice Moss", 32, 4000d);
         ProjectManager pm = new ProjectManager("Jen Barber", 40, 6000d);
 
-        System.out.println(csvConverter.getEmployeeFormated(it));
-        System.out.println(jsonConverter.getEmployeeFormated(it));
-        System.out.println(csvConverter.getEmployeeFormated(pm));
-        System.out.println(jsonConverter.getEmployeeFormated(pm));
+        out.println(csvConverter.getEmployeeFormated(it));
+        out.println(jsonConverter.getEmployeeFormated(it));
+        out.println(csvConverter.getEmployeeFormated(pm));
+        out.println(jsonConverter.getEmployeeFormated(pm));
     }
 }
