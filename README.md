@@ -59,6 +59,18 @@ O Adapter é um padrão de projeto estrutural que permite objetos com interfaces
 
 > Converter a interface de uma classe em outra interface esperada pelos clientes. Adapter permite a comunicação entre classes que não poderiam trabalhar juntas devido à incompatibilidade de suas interfaces.
 
+## Modelo Adapter HDMI
+
+<p align="center">
+  <img src="imgs/Adapter.hdmi.png" alt="Adapter.hdmi.png">
+</p>
+
+## Modelo Adapter Class HDMI
+
+<p align="center">
+  <img src="imgs/Adapter.class.hdmi.png" alt="Adapter.class.hdmi.png">
+</p>
+
 ## Código
 
 [Ver aqui](https://github.com/danielso2007/padroes_projetos_estruturais)
@@ -88,6 +100,18 @@ O Bridge é um padrão de projeto estrutural que permite que você divida uma cl
 
 > Desacoplar uma abstração de sua implementação para que os dois possam variar independentemente
 
+## Modelo Converter
+
+<p align="center">
+  <img src="imgs/Bridge.converter.png" alt="Bridge.converter.png">
+</p>
+
+## Modelo Services and Daos
+
+<p align="center">
+  <img src="imgs/Bridge.service.png" alt="Bridge.service.png">
+</p>
+
 ## Código
 
 [Ver aqui](https://github.com/danielso2007/padroes_projetos_estruturais)
@@ -115,6 +139,18 @@ O Composite é um padrão de projeto estrutural que permite que você componha o
 
 > Compor objetos em estrturas de árvore para representar hierarquias todo-parte. Composite permite que cliente tratem objetos individuais e composições de objetos de maneira uniforme
 
+## Modelo File System
+
+<p align="center">
+  <img src="imgs/Composite.swing.png" alt="File System">
+</p>
+
+## Modelo Java Swing
+
+<p align="center">
+  <img src="imgs/Composite.filesystem.png" alt="Java Swing">
+</p>
+
 ## Código
 
 [Ver aqui](https://github.com/danielso2007/padroes_projetos_estruturais)
@@ -125,19 +161,33 @@ O Decorator é um padrão de projeto estrutural que permite que você acople nov
 
 ## Objetivo do projeto
 
-- xxxxx
+- Apresentar o problema geral
+- Apresentar uma solução utilizando o decorator
+- Ver como o java swing utiliza este padrão
 
 ## Problemas
 
-- xxxxx
+- Como posso adicionar funcionalidades dinamicamente em um objeto?
 
 ## Solução
 
-- xx
+- Com objetos decorators é possível adicionar novas responsabilidades para um objeto
 
 ## GOF
 
-> 
+> Anexar responsabilidades adicionais a um obejto dinamicamente. Decorators oferecem uma alternativa flexível ao uso de herança para estender uma funcionalidade.
+
+## Modelo Coffe Shop
+
+<p align="center">
+  <img src="imgs/Decorator.coffer.png" alt="Decorator">
+</p>
+
+## Modelo Java Swing
+
+<p align="center">
+  <img src="imgs/Decorator.swing.png" alt="Decorator">
+</p>
 
 ## Código
 
@@ -149,19 +199,40 @@ O Facade é um padrão de projeto estrutural que fornece uma interface simplific
 
 ## Objetivo do projeto
 
-- xxxxx
+- Apresentar o problema geral
+- Apresentar uma solução utilizando o facade
+- Ver como podemos fazer variações dependendo do contexto
 
 ## Problemas
 
-- xxxxx
+- Como posso simplificar o acesso a um sistema complexo utilizando uma interface simples?
+- Como reduzir a complexidade interna de um sistema para o cliente?
 
 ## Solução
 
-- xx
+- Definir uma fachada que provisiona uma interface única para um conjunto de interfaces de um sistema
 
 ## GOF
 
-> 
+> Oferecer uma interface única para um conjunto de interfaces de um subsistema. Façade define uma interface de nível mais elevado que torna o subsistema mais fácil de usar.
+
+## Modelo Facade Before
+
+<p align="center">
+  <img src="imgs/Facade.before.png" alt="Facade.before.png">
+</p>
+
+## Modelo Facade After
+
+<p align="center">
+  <img src="imgs/Facade.after.png" alt="Facade.after.png">
+</p>
+
+## Modelo Facade Isolated
+
+<p align="center">
+  <img src="imgs/Facade.isolated.png" alt="Facade.isolated.png">
+</p>
 
 ## Código
 

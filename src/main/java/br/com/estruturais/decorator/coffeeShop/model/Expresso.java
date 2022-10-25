@@ -1,10 +1,12 @@
 package br.com.estruturais.decorator.coffeeShop.model;
 
+import static java.lang.System.*;
+
 public class Expresso implements Drink {
 
     @Override
     public void serve() {
-        System.out.println("- Adding 50ml of expresso");
+        out.println("- Adding 50ml of expresso");
     }
 
     @Override

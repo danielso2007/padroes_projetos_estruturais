@@ -1,5 +1,6 @@
 package br.com.estruturais.decorator.coffeeShop.model.decorators;
 
+import static java.lang.System.*;
 import br.com.estruturais.decorator.coffeeShop.model.Drink;
 
 public class Milk extends DrinkDecorator {
@@ -11,7 +12,7 @@ public class Milk extends DrinkDecorator {
     @Override
     public void serve() {
         drink.serve();
-        System.out.println("- Adding 30ml of Milk");
+        out.println("- Adding 30ml of Milk");
     }
 
     @Override
