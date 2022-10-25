@@ -244,19 +244,40 @@ O Flyweight é um padrão de projeto estrutural que permite a você colocar mais
 
 ## Objetivo do projeto
 
-- xxxxx
+- Apresentar o problema geral
+- Apresentar uma solução utilizando o flyweight
 
 ## Problemas
 
-- xxxxx
+- Como posso trabalhar com uma grande quantidade de objetos na memória de uma forma mais eficiente?
 
 ## Solução
 
-- xx
+- Dividir o objeto entre valores intrínsecos e extrínsecos
+- Criar um flyweight que armazene os valores intrínsecos
+- Os clientes irão compartilhar estes flyweights, adicionando os valores extrínsecos pontualmente
 
 ## GOF
 
-> 
+> Usar compartilhamento para suportar grandes quantidades de objetos refinados eficientemente.
+
+## Modelo Flyweight (Before) Music Player
+
+<p align="center">
+  <img src="imgs/Flyweight.before.music.png" alt="Flyweight (Before) Music Player">
+</p>
+
+## Modelo Flyweight (After) Music Player
+
+<p align="center">
+  <img src="imgs/Flyweight.after.music.png" alt="Flyweight (After) Music Player">
+</p>
+
+## Modelo Flyweight Map Game
+
+<p align="center">
+  <img src="imgs/Flyweight.map.game.png" alt="Flyweight Map Game">
+</p>
 
 ## Código
 
