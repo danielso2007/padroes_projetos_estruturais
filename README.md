@@ -73,7 +73,7 @@ O Adapter é um padrão de projeto estrutural que permite objetos com interfaces
 
 ## Código
 
-[Ver aqui](https://github.com/danielso2007/padroes_projetos_estruturais)
+[Ver aqui](https://github.com/danielso2007/padroes_projetos_estruturais/tree/main/src/main/java/br/com/estruturais/adapter)
 
 # Bridge
 
@@ -114,7 +114,7 @@ O Bridge é um padrão de projeto estrutural que permite que você divida uma cl
 
 ## Código
 
-[Ver aqui](https://github.com/danielso2007/padroes_projetos_estruturais)
+[Ver aqui](https://github.com/danielso2007/padroes_projetos_estruturais/tree/main/src/main/java/br/com/estruturais/bridge)
 
 # Composite
 
@@ -153,7 +153,7 @@ O Composite é um padrão de projeto estrutural que permite que você componha o
 
 ## Código
 
-[Ver aqui](https://github.com/danielso2007/padroes_projetos_estruturais)
+[Ver aqui](https://github.com/danielso2007/padroes_projetos_estruturais/tree/main/src/main/java/br/com/estruturais/composite)
 
 # Decorator
 
@@ -191,7 +191,7 @@ O Decorator é um padrão de projeto estrutural que permite que você acople nov
 
 ## Código
 
-[Ver aqui](https://github.com/danielso2007/padroes_projetos_estruturais)
+[Ver aqui](https://github.com/danielso2007/padroes_projetos_estruturais/tree/main/src/main/java/br/com/estruturais/decorator)
 
 # Facade
 
@@ -236,7 +236,7 @@ O Facade é um padrão de projeto estrutural que fornece uma interface simplific
 
 ## Código
 
-[Ver aqui](https://github.com/danielso2007/padroes_projetos_estruturais)
+[Ver aqui](https://github.com/danielso2007/padroes_projetos_estruturais/tree/main/src/main/java/br/com/estruturais/facade)
 
 # Flyweight
 
@@ -281,7 +281,7 @@ O Flyweight é um padrão de projeto estrutural que permite a você colocar mais
 
 ## Código
 
-[Ver aqui](https://github.com/danielso2007/padroes_projetos_estruturais)
+[Ver aqui](https://github.com/danielso2007/padroes_projetos_estruturais/tree/main/src/main/java/br/com/estruturais/flyweight)
 
 # Proxy
 
@@ -321,4 +321,4 @@ O Proxy é um padrão de projeto estrutural que permite que você forneça um su
 
 ## Código
 
-[Ver aqui](https://github.com/danielso2007/padroes_projetos_estruturais)
+[Ver aqui](https://github.com/danielso2007/padroes_projetos_estruturais/tree/main/src/main/java/br/com/estruturais/proxy)
