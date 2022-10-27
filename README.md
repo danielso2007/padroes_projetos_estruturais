@@ -289,19 +289,35 @@ O Proxy é um padrão de projeto estrutural que permite que você forneça um su
 
 ## Objetivo do projeto
 
-- xxxxx
+- Apresentar o problema geral
+- Apresentar uma solução utilizando o proxy
+- Conhecer os tipos de proxy existentes
 
 ## Problemas
 
-- xxxxx
+- Como posso controlar o acesso a alguns objetos?
+- Como posso adicionar funcionalidades durante o acesso a algum objeto?
 
 ## Solução
 
-- xx
+- Utilizar uma estrutura de proxy para atuar como se fosse um outro objeto
+- Utilizando o proxy como forma de acessar o obejto real, será possível controlar o seu acesso
 
 ## GOF
 
-> 
+> Prover um substituto ao ponto através do qual um objeto possa controlar o acesso a outro.
+
+## Modelo Proxy ATM
+
+<p align="center">
+  <img src="imgs/Proxy-ATM.drawio.png" alt="Proxy ATM">
+</p>
+
+## Modelo Proxy Heavy Resource
+
+<p align="center">
+  <img src="imgs/Proxy-Heavy Resource.drawio.png" alt="Proxy Heavy Resource">
+</p>
 
 ## Código
 
